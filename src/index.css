@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F3F3E3;
+  font-family: 'Amatic SC', cursive;
+  color: #243264;
+}
+
+.container {
+  width: 25%;
+  height: 25em;
+  background-color: white;
+  margin: 7em auto;
+  padding: 1em;
+  border-radius: 6%;
+  position: relative;
+}
+
+.container h1 {
+  text-align: center;
+  color:#FC6C4C;
+  font-size: 35px;
+}
+
+.info{
+  font-size: 25px;
+  text-align: center;
+}
+
+.person {
+ margin: 1em;
+ font-size: 20px;
+}
+
+.images {
+  width: 3em;
+  height: 3em;
+  border-radius: 3em;
+  float: left;
+}
+
+.personInfo {
+  padding-left: 4em;
+}
+
+.mybtn {
+  background-color: #FC6C4C;
+  color: #F3F3E3;
+  border: none;
+  width: 50%;
+  height: 2em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  margin-left: 25%;
+}
+
+.delete {
+  float: right;
+  width: 5%;
+  height: 0,5em;
+  background-color: #8D99C0;
+  color: #F3F3E3;
+  border: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  margin-top: -2em;
+}
